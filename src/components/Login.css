@@ -1,0 +1,81 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f9fc; /* Color de fondo más claro */
+    margin: 0;
+  }
+  
+  .login-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #e0e0e0; /* Borde sutil alrededor del formulario */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Color de texto más oscuro para mejor contraste */
+    font-size: 24px; /* Tamaño de fuente más grande */
+    font-weight: 600; /* Fuente más audaz */
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7f8c8d; /* Color gris para el texto de descripción */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Espaciado más generoso */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px; /* Espacio entre el label y el input */
+    color: #34495e; /* Color del texto de los labels */
+    font-size: 14px; /* Tamaño de fuente más pequeño para los labels */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dcdcdc; /* Borde gris claro */
+    border-radius: 6px; /* Bordes ligeramente redondeados */
+    font-size: 16px;
+    color: #2c3e50; /* Color del texto del input */
+    box-sizing: border-box; /* Incluir el padding en el ancho total del input */
+    transition: border-color 0.3s ease; /* Transición suave para el borde */
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff; /* Color del borde al enfocar */
+    outline: none; /* Quitar el contorno predeterminado */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Color de fondo azul */
+    border: none;
+    border-radius: 6px; /* Bordes redondeados */
+    color: #ffffff; /* Color del texto */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  }
+  
+  button:focus {
+    outline: 2px solid #007bff; /* Contorno azul al enfocar */
+    outline-offset: 2px; /* Desplazamiento del contorno */
+  }
+  
